@@ -1,0 +1,31 @@
+header {
+    background-color: green;
+    text-align: center;
+}
+h3 {
+    font-size: 40x;
+    text-align: center;
+}
+body{
+background-color: lightgreen;
+text-align: center;
+}
+{
+    font-family: serif;
+
+}
+ img{
+border-radius: 10px;
+}
+
+main{
+color: black;
+font-family: Arial;
+
+}
+.flexbox-container{
+
+display: flex;
+
+
+}
