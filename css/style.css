@@ -11,7 +11,7 @@ background-color: lightgreen;
 text-align: center;
 }
 {
-    font-family: serif;
+    font-family:Arial;
 
 }
  img{
@@ -27,5 +27,38 @@ font-family: Arial;
 
 display: flex;
 
+/*Mobile-friendly adjustments*/
 
+@media (max-width: 600px) {
+    body {
+        font-size: 16px; /* slightly smaller font for narrow screens */
+        line-height: 1.6;
+        padding: 0.5rem;
+    }
+
+    header {
+        padding: 1rem;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+    img {
+        width: 100%; /* scale images to screen width */
+        height: auto;
+    }
+
+    .flexbox-container {
+        flex-direction: column; /* stack items vertically on small screens */
+        align-items: center;
+        gap: 1rem;
+    }
+
+    a {
+        display: block; /* bigger tap targets */
+        margin: 0.5rem 0;
+    }
 }
+
+

@@ -1,48 +1,64 @@
 <!DOCTYPE html>
-<html lang = "en">
-<link rel ="stylesheet" href = "css/style.css" />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Life Cycle of Monarch Butterflies</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
 <body>
+
     <header>
-<Title>The Life Cycle of A Monarch Butterflies</Title>
-</header>
+        <h1>The Life Cycle of Monarch Butterflies</h1>
+    </header>
 
-<main>
-    <h1>The Amazing transformation of Butterflies</h1>
-<img src ="images/MonarchbutterflyImage.jpg" width ="300" height = "300" alt = "Monarch Butterfly Image">
+    <main id="main-content" role="main">
+        <h2>The Amazing Transformation of Butterflies</h2>
+        <figure>
+            <img src="images/MonarchbutterflyImage.jpg" width="300" height="300" alt="Adult Monarch Butterfly" aria-describedby="fig1">
+            <figcaption id="fig1">An adult Monarch Butterfly with its wings spread open.</figcaption>
+        </figure>
 
-    <h1>The Amazing transformation of Butterflies</h1>
-    <h2>What is Metamorphosis?</h2>
-    <p>Metamorphosis is a phenomenon in insects in which they completely transform their appearance with 4 different stages of their development.</p>
-    <p>We will go into into detail about these stages in more detail later. The stages of development in a Butterfly are Egg, Larva, Pupa, and Adult</p>
-    <h2>Why are Butterflies important?</h2>
-    <p>Butterflies are incredibly important to the ecosystem. They help Pollinate native plants which gives other animals their food such as birds, bats, and other insects. </p>
-    <section>
-    <h2>The Four Stages of Development</h2>
-<ol>
-        <div class ="flexbox-container">
-      <li class ="flexbox-container">The Egg-Monarchs start out as Eggs hatched by an Adult Monarch which lays her Eggs under a Milkweed leaf which is a plant toxic to other animals and is there only source of food as a caterpillar. They are typically cream colored, conical in shape and roughly 1mm in size. Females typically lay around 3-500 Eggs in a 2-5 Week period. 
-    Monarch eggs typically hatch around 5-7 days after they are layed and then they become the next stage.
-        </li>
-        <img class ="flexbox-container" src = "images/Butterfly_egg.jpg" width = "100" height = "100" alt = "Butterfly Egg Image"/>
+        <h2>What is Metamorphosis?</h2>
+        <p>Metamorphosis is a process in which insects completely transform their appearance in 4 stages: Egg, Larva, Pupa, and Adult.</p>
 
-        <li class = "flexbox-container">Larva-In this stage its all about eating and growing. This is the stage where it is also called a Caterpillar</li>
-        <img class = "styled-images" src = "images/Monarch_Butterfly_Caterpillar.jpeg" width = "100" height = "100" alt = "Caterpillar Image">
+        <h2>Why are Butterflies important?</h2>
+        <p>Butterflies are pollinators, providing food sources for birds, bats, and other insects. </p>
 
-        <li class = "flexbox-container">Pupa-This is the stage where the Caterpillar forms into a Chrysalis where they transform from a Caterpillar or Larva into a Butterfly</li>
-    <img class = "styled-images" src = "images/100825-pupating-6.jpg" width = "100" height = "100" alt = "Pupa"/>
+        <section>
+            <h2>The Four Stages of Development</h2>
+            <ol>
+                <li>
+                    <figure>
+                        <img src="images/Butterfly_egg.jpg" width="100" height="100" alt="Monarch Butterfly eggs on Milkweed" aria-describedby="egg-desc">
+                        <figcaption id="egg-desc">Egg Stage: Cream-colored eggs laid under Milkweed leaves.</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/Monarch_Butterfly_Caterpillar.jpeg" width="100" height="100" alt="Caterpillar on Milkweed" aria-describedby="larva-desc">
+                        <figcaption id="larva-desc">Larva Stage: Caterpillar feeds heavily on Milkweed.</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/100825-pupating-6.jpg" width="100" height="100" al="Monarch Butterfly Chrysalis" aria-describedby="pupa-desc">
+                        <figcaption id="pupa-desc">Pupa Stage: Transformation inside a Chrysalis.</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/MonarchbutterflyImage.jpg" width="100" height="100" alt="Adult Monarch Butterfly" aria-describedby="adult-desc">
+                        <figcaption id="adult-desc">Adult Stage: Fully developed butterfly emerges.</figcaption>
+                    </figure>
+                </li>
+            </ol>
+        </section>
+    </main>
 
-        <li class = "flexbox-container">Adult Stage-After being in the Chrysalis they are now fully formed Butterflies with wings that formed in the Chrysalis. They can now freely fly and are at the maturity to lay eggs. Most Monarch Butterflies only live to be a few weeks old.  Only the Super Generation which are born in the Late Summer/Early Fall get the chance to migrate to warmer places to survive.</li>
-    <img class ="styled-images" src = "images/MonarchbutterflyImage.jpg" width = "100" height = "100" alt = "Image of Adult Butterfly"/>
-    <div>
-</ol>
-    </section>
-</main>
-
-<footer>
-<a href = "page2.html" >Click here for more!!!</a>
-
-</footer>
-    
+    <footer role="contentinfo">
+        <a href="page2.html" aria-label="Learn more about Monarch Butterflies">Continue to more Monarch Butterfly information</a>
+    </footer>
 </body>
 </html>
 
