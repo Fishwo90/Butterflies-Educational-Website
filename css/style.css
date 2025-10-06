@@ -1,43 +1,28 @@
-header {
-    background-color: green;
-    text-align: center;
+/* Custom styles for Monarch Butterflies website */
+body {
+    background-color: lightgreen;
+    font-family: Arial, sans-serif;
 }
+
 h3 {
-    font-size: 40x;
+    font-size: 40px;
     text-align: center;
 }
-body{
-background-color: lightgreen;
-text-align: center;
-}
-{
-    font-family:Arial;
 
-}
- img{
-border-radius: 10px;
+img {
+    border-radius: 10px;
 }
 
-main{
-color: black;
-font-family: Arial;
-
+main {
+    color: black;
 }
-.flexbox-container{
 
-display: flex;
-
-/*Mobile-friendly adjustments*/
-
+/* Mobile-friendly adjustments */
 @media (max-width: 600px) {
     body {
         font-size: 16px; /* slightly smaller font for narrow screens */
         line-height: 1.6;
         padding: 0.5rem;
-    }
-
-    header {
-        padding: 1rem;
     }
 
     main {
@@ -49,16 +34,8 @@ display: flex;
         height: auto;
     }
 
-    .flexbox-container {
-        flex-direction: column; /* stack items vertically on small screens */
-        align-items: center;
-        gap: 1rem;
-    }
-
     a {
         display: block; /* bigger tap targets */
         margin: 0.5rem 0;
     }
 }
-
-

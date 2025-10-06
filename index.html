@@ -30,47 +30,55 @@
         </div>
     </nav>
 
-    <main id="main-content" role="main">
-        <h2>The Amazing Transformation of Butterflies</h2>
-        <figure>
-            <img src="images/MonarchbutterflyImage.jpg" width="300" height="300" alt="Adult Monarch Butterfly" aria-describedby="fig1">
-            <figcaption id="fig1">An adult Monarch Butterfly with its wings spread open.</figcaption>
+    <main id="main-content" role="main" class="container my-4">
+        <h2 class="mb-3">The Amazing Transformation of Butterflies</h2>
+        <figure class="text-center">
+            <img src="images/MonarchbutterflyImage.jpg" width="300" height="300" alt="Adult Monarch Butterfly" aria-describedby="fig1" class="img-thumbnail">
+            <figcaption id="fig1" class="mt-2">An adult Monarch Butterfly with its wings spread open.</figcaption>
         </figure>
 
-        <h2>What is Metamorphosis?</h2>
+        <h2 class="mt-4">What is Metamorphosis?</h2>
         <p>Metamorphosis is a process in which insects completely transform their appearance in 4 stages: Egg, Larva, Pupa, and Adult.</p>
 
-        <h2>Why are Butterflies important?</h2>
+        <h2 class="mt-4">Why are Butterflies important?</h2>
         <p>Butterflies are pollinators, providing food sources for birds, bats, and other insects. </p>
 
         <section>
-            <h2>The Four Stages of Development</h2>
-            <ol>
-                <li>
-                    <figure>
-                        <img src="images/Butterfly_egg.jpg" width="100" height="100" alt="Monarch Butterfly eggs on Milkweed" aria-describedby="egg-desc">
-                        <figcaption id="egg-desc">Egg Stage: Cream-colored eggs laid under Milkweed leaves.</figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img src="images/Monarch_Butterfly_Caterpillar.jpeg" width="100" height="100" alt="Caterpillar on Milkweed" aria-describedby="larva-desc">
-                        <figcaption id="larva-desc">Larva Stage: Caterpillar feeds heavily on Milkweed.</figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img src="images/100825-pupating-6.jpg" width="100" height="100" al="Monarch Butterfly Chrysalis" aria-describedby="pupa-desc">
-                        <figcaption id="pupa-desc">Pupa Stage: Transformation inside a Chrysalis.</figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img src="images/MonarchbutterflyImage.jpg" width="100" height="100" alt="Adult Monarch Butterfly" aria-describedby="adult-desc">
-                        <figcaption id="adult-desc">Adult Stage: Fully developed butterfly emerges.</figcaption>
-                    </figure>
-                </li>
-            </ol>
+            <h2 class="mt-4">The Four Stages of Development</h2>
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+                <div class="col">
+                    <div class="card h-100 text-center">
+                        <img src="images/Butterfly_egg.jpg" class="card-img-top mx-auto mt-3" style="width: 100px; height: 100px;" alt="Monarch Butterfly eggs on Milkweed" aria-describedby="egg-desc">
+                        <div class="card-body">
+                            <p class="card-text" id="egg-desc">Egg Stage: Cream-colored eggs laid under Milkweed leaves.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 text-center">
+                        <img src="images/Monarch_Butterfly_Caterpillar.jpeg" class="card-img-top mx-auto mt-3" style="width: 100px; height: 100px;" alt="Caterpillar on Milkweed" aria-describedby="larva-desc">
+                        <div class="card-body">
+                            <p class="card-text" id="larva-desc">Larva Stage: Caterpillar feeds heavily on Milkweed.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 text-center">
+                        <img src="images/100825-pupating-6.jpg" class="card-img-top mx-auto mt-3" style="width: 100px; height: 100px;" alt="Monarch Butterfly Chrysalis" aria-describedby="pupa-desc">
+                        <div class="card-body">
+                            <p class="card-text" id="pupa-desc">Pupa Stage: Transformation inside a Chrysalis.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 text-center">
+                        <img src="images/MonarchbutterflyImage.jpg" class="card-img-top mx-auto mt-3" style="width: 100px; height: 100px;" alt="Adult Monarch Butterfly" aria-describedby="adult-desc">
+                        <div class="card-body">
+                            <p class="card-text" id="adult-desc">Adult Stage: Fully developed butterfly emerges.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
