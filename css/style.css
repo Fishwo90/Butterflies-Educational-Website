@@ -17,8 +17,7 @@ img {
     margin-right: auto;
 }
 
-
-.card{
+.card-img {
     background-color: lightgreen;
     border-radius: 10px;
 }
